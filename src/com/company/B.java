@@ -6,4 +6,7 @@ public class B {
     public B(C c) {
         this.c = c;
     }
+    public int method(){
+       return this.c.wrongMethod(3);
+    }
 }
